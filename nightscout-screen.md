@@ -31,6 +31,14 @@ Usar contraseña
 
 ## Flujo de Configuración de proyecto
 
+Configurar proyecto
 
+![Project](./images/05-project.png)
+
+![Project](./images/06-services.png)
 
 ## Flujo de Desplegar máquina
+
+Desplegar
+
+![Deploy](./images/07-deploy.png)
