@@ -20,12 +20,7 @@ Debemos iniciar sesión con nuestro usuario
 gcloud auth login
 ```
 
-![Login](https://github.com/mdiazn80/nightscout-gcp/blob/main/images/00-login.png)
-
 Persionar: "Y" y despues tecla Enter
-
-![Click Login](https://github.com/mdiazn80/nightscout-gcp/blob/main/images/01A-auth-link.png)
-
 
 
 ## Configuración proyecto

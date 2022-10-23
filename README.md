@@ -16,5 +16,7 @@ Para iniciar el procedimiento de instalación es necesario presionar la siguient
 * Usuarios Windows - > "Control + click"
 * Usuarios Mac - > "command + click"
 
-<a href="https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmdiazn80%2Fnightscout-gcp&page=editor&cloudshell_tutorial=nightscout-tutorial.md" target="_blank">![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)</a>
+
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://shell.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/mdiazn80/nightscout-gcp&cloudshell_tutorial=nightscout-tutorial.md&cloudshell_open_in_editor=nightscout-tutorial.md)
+
 
