@@ -11,7 +11,7 @@ Selecciona el proyecto de google cloud.
 
 Identificador del proyecto: <walkthrough-project-id/>
 
-A continuación de manera asistida será necesario completar los siguiente pasos haciendo clic en <walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> de cada uno de ellos.
+A continuación de manera asistida será necesario completar los siguiente pasos haciendo clic en <walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> de cada uno de ellos y despues la tecla intro.
 
 ## Login
 
@@ -20,10 +20,7 @@ Debemos iniciar sesión con nuestro usuario
 gcloud auth login
 ```
 
-Persionar: "Y" y despues tecla Enter. 
-
-Aparecerá un link largo sobre el que haremos clic. 
-
+**Ayuda**: Se puede ver el flujo de ejemplo.
 
 ## Configuración proyecto
 

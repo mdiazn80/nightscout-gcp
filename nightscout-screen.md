@@ -1,20 +1,30 @@
 # Desplegar nightscout
 
 ## Introduccion
-Con este asistente podremos desplegar la infraestructura necesaria para poder monitorizar con nuestro propio nightscout
+A continuación mostraremos los pantallazos del flujo
 
-## Login
+## Flujo de Login
 
-** Flujo Login **
-
+Acceso login
 ![Login](./images/00-login.png)
 
-![Click Login](./images/01A-auth-link.png)
+Url
+![Login](./images/01A-auth-link.png)
 
-![Click Login](./images/01B-auth-link.png)
+Selección de usuario
+![Login](./images/01B-auth-link.png)
 
-![Click Login](./images/02-loginuser.png)
+Autorizar
+![Login](./images/02-loginuser.png)
 
-![Click Login](./images/03-credential.png)
+Contraseña
+![Login](./images/03-credential.png)
 
-![Click Login](./images/04-pastetoken.png)
+Usar contraseña
+![Login](./images/04-pastetoken.png)
+
+## Flujo de Configuración de proyecto
+
+
+
+## Flujo de Desplegar máquina
