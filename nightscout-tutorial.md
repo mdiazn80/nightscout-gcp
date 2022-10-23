@@ -31,6 +31,11 @@ Debemos seleccionar el proyecto de google cloud sobre el que desplegar la infrae
 gcloud config set project <walkthrough-project-id/>
 ```
 
+Configurar la zona por defecto 
+```sh
+gcloud config set compute/zone us-central1-a
+```
+
 A continuación habilitaremos los apis necesarios
 ```sh  
 gcloud services enable compute.googleapis.com deploymentmanager.googleapis.com  
@@ -42,6 +47,8 @@ Crear despliegue de máquina
 ```sh  
 gcloud deployment-manager deployments create nighscout-deployment --template data/vm.jinja
 ```
+
+## instalación
 
 Entrar dentro de la máquina
 ```sh
@@ -59,3 +66,9 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 <walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
 Ya cuentas con un servidor para realizar tu seguimiento con nightscout sobre Google Cloud.
+
+## Si queremos borrar la instalacion
+
+```sh
+gcloud deployment-manager deployments delete nighscout-deployment
+```
