@@ -20,7 +20,9 @@ Debemos iniciar sesión con nuestro usuario
 gcloud auth login
 ```
 
-Persionar: "Y" y despues tecla Enter
+Persionar: "Y" y despues tecla Enter. 
+
+Aparecerá un link largo sobre el que haremos clic. 
 
 
 ## Configuración proyecto
