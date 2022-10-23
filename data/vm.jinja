@@ -1,0 +1,26 @@
+resources:
+- type: compute.v1.instance
+  name: nightscout-vm
+  properties:
+    zone: us-central1-a
+    machineType: https://www.googleapis.com/compute/v1/projects/{{ env["project"] }}/zones/us-central1-a/machineTypes/e2-micro
+    disks:
+    - deviceName: boot
+      type: PERSISTENT
+      boot: true
+      autoDelete: true
+      initializeParams:
+        # See a full list of image families at https://cloud.google.com/compute/docs/images#os-compute-support
+        sourceImage: projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20221018
+        diskSizeGb: 30
+    # Replace [MY_PROJECT] with your project ID
+    networkInterfaces:
+    - network: https://www.googleapis.com/compute/v1/projects/{{ env["project"] }}/global/networks/default
+      # Access Config required to give the instance a public IP address
+      accessConfigs:
+      - name: External NAT
+        type: ONE_TO_ONE_NAT
+    tags:
+      items:
+        - http-server
+        - https-server
