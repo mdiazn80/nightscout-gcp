@@ -1,9 +1,11 @@
 # Desplegar nightscout
 
 ## Introduccion
-Con este asistente podremos desplegar la infraestructura necesaria para poder monitorizar con nuestro propio nightscout
+Con este asistente podremos desplegar la infraestructura necesaria para poder monitorizar con nuestro propio nightscout. 
 
-Selecciona el proyecto de google cloud.
+Es posible que algunos de estos pasos requieran de algo de tiempo para finalizarse, por lo que hay que tener un poco de paciencia, de todas formas siempre podremos ver barras de estado que nos dará información.
+
+Selecciona el proyecto de google cloud sobre el que desplegaremos la infraestructura.
 
 <walkthrough-project-setup billing=true></walkthrough-project-setup>
 
@@ -20,7 +22,7 @@ Debemos iniciar sesión con nuestro usuario
 gcloud auth login
 ```
 
-**Ayuda**: Se puede ver el flujo de ejemplo.
+**Ayuda**: Se puede ver el Flujo Login.
 
 ## Configuración proyecto
 
@@ -38,7 +40,7 @@ gcloud services enable compute.googleapis.com deploymentmanager.googleapis.com
 
 Crear despliegue de máquina
 ```sh  
-gcloud deployment-manager deployments create nighscout-deployment --config data/vm.yml
+gcloud deployment-manager deployments create nighscout-deployment --template data/vm.jinja
 ```
 
 Entrar dentro de la máquina
