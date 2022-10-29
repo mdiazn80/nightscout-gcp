@@ -3,35 +3,37 @@
 ## Introduccion
 A continuación mostraremos los pantallazos del flujo
 
-## Flujo de Login
+Next we will show the screenshots of the flow
 
-Acceso login
+## Flujo de Login/Login Flow
+
+Acceso login/Login
 
 ![Login](./images/00-login.png)
 
-Url
+Url/URL
 
 ![Login](./images/01A-auth-link.png)
 
-Selección de usuario
+Selección de usuario/ Select User
 
 ![Login](./images/01B-auth-link.png)
 
-Autorizar
+Autorizar/Authorize
 
 ![Login](./images/02-loginuser.png)
 
-Contraseña
+Contraseña/Password
 
 ![Login](./images/03-credential.png)
 
-Usar contraseña
+Usar contraseña/Use Password
 
 ![Login](./images/04-pastetoken.png)
 
 ## Flujo de Configuración de proyecto
 
-Configurar proyecto
+Configurar proyecto/Setting project
 
 ![Project](./images/05-project.png)
 
@@ -39,6 +41,6 @@ Configurar proyecto
 
 ## Flujo de Desplegar máquina
 
-Desplegar
+Desplegar/Deploy
 
 ![Deploy](./images/07-deploy.png)
