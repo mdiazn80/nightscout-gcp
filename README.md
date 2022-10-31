@@ -7,9 +7,11 @@ The objective of the project is to be able to automate the deployment of the nec
 
 > **_NOTE:_**  Haciendo un uso responsable y medido del proyecto NO debería generar ningun coste.
 
-## Requisitos
+## Requisitos/Requirements
 
-## Instalación
+* [Digital Diabetes](https://digital-diabetes.com/2022/10/30/despliega-nightscout-en-google-cloud-de-forma-facil-y-sin-coste-mensual/)
+
+## Instalación/Install
 
 Para iniciar el procedimiento de instalación es necesario presionar la siguiente tecla del teclado mientras se presiona el botón Open In Google Cloud Shell
 
